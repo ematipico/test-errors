@@ -1,20 +1,11 @@
 {
-  "name": "test",
-  "private": true,
+  "name": "vite-runner-full-reload-repro",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite"
   },
-  "devDependencies": {
-    "typescript": "~5.9.3",
-    "vite": "^8.0.0-beta.13"
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "^8.0.0-beta.13"
-    }
+  "dependencies": {
+    "vite": "^8.0.2"
   }
 }
